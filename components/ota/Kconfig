@@ -1,0 +1,21 @@
+menu "GitHub OTA"
+
+config OTA_VERSION_URL
+    string "Version file URL (raw text)"
+    default ""
+    help
+        Example:
+          https://raw.githubusercontent.com/<user>/<repo>/main/ota/version.txt
+
+config OTA_FIRMWARE_URL
+    string "Firmware binary URL"
+    default ""
+    help
+        Example (GitHub Releases):
+          https://github.com/<user>/<repo>/releases/latest/download/esp32_touch_lcd_185_echo.bin
+
+config OTA_TIMEOUT_MS
+    int "HTTP timeout (ms)"
+    default 8000
+
+endmenu

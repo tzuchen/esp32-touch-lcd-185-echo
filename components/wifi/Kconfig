@@ -1,0 +1,15 @@
+menu "Wi-Fi"
+
+config WIFI_SSID
+    string "Wi-Fi SSID"
+    default ""
+
+config WIFI_PASSWORD
+    string "Wi-Fi Password"
+    default ""
+
+config WIFI_MAX_RETRY
+    int "Wi-Fi connect retry count"
+    default 10
+
+endmenu

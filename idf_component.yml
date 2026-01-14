@@ -1,0 +1,4 @@
+dependencies:
+  espressif/esp_io_expander: "^1.0.1"
+  espressif/esp_io_expander_tca9554: "^1.0.0"
+  espressif/esp_lcd_st77916: "^1.0.2"

@@ -1,0 +1,14 @@
+# ESP-IDF / build artifacts
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.*.old
+dependencies.lock
+managed_components/
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
